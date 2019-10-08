@@ -76,5 +76,10 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="SQL\createDatabase.sql" />
+    <Content Include="SQL\TestMirKvartir.sql" />
+    <Content Include="SQL\TestMirKvartir1.sql" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
